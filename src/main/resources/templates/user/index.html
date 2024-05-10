@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org/">
+<head>
+    <meta charset="UTF-8"/> <!-- Note the closing '/' character -->
+    <title>Title</title>
+</head>
+<body>
+Hello from index.html
+
+<h1>Hello </h1>
+<h1 th:text="${user.username}"></h1>
+<a th:href="@{/}">Click</a>
+</body>
+</html>
